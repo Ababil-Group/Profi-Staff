@@ -35,7 +35,7 @@ export default function BehindHero() {
             </p>
             <Link
               className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
-              href="https://calendly.com/recruitment4u-head-office"
+              href="/contact"
               target="_blank">
               {t("btn")}
             </Link>
