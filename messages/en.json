@@ -35,11 +35,11 @@
 
   "homepartner": {
     "partner": "Your partner in talent recruitment",
-    "partnerdesc": "We specialize in recruiting and selecting foreign workers from various regions, including Asia, the Gulf, North and South America, and Africa. Operating from our central offices in Dubai, we place workers in countries such as the UK, Croatia, Malta, Bulgaria, Poland, Romania, and other European nations.",
+    "partnerdesc": "We specialize in recruiting and selecting foreign workers from various regions, including Asia, the Gulf, North and South America, and Africa. Operating from our central offices in Dubai, we place workers in countries such as the UK, nations.",
     "state1": {
       "no1": "1",
       "statetitle": "3000 EMPLOYED WORKERS",
-      "statedec": "In the past two years, we have brought over 5000 third-country nationals to  European Countries. With over 10% of the total market for foreign workers, we are a leading agency in mediating the employment of foreign workers."
+      "statedec": "In the past two years, we have brought over 3000 third-country nationals to  European Countries. With over 10% of the total market for foreign workers, we are a leading agency in mediating the employment of foreign workers."
     },
     "state2": {
       "no2": "2",
@@ -53,7 +53,7 @@
     }
   },
   "agencysection": {
-    "title": "Modern Methods to Restore the Agency Business&apos;s Former Glory",
+    "title": "Modern Methods to Restore the Agency Business in Former Glory",
     "accordionItems1": {
       "accordiontitle": "Find the best candidates.",
       "contentdec": "Profistaff specializes in helping companies break free from unnecessary geographical limitations—so you can hire the best person in the world, not just the best person nearby."
@@ -64,7 +64,7 @@
     },
     "accordionItems3": {
       "accordiontitle": "Innovate selection processes.",
-      "contentdec": "When hiring foreign workers, it is important to consider the efforts of both parties involved: both the worker and the employer. To ensure that this effort is not in vain, we have developed a multi-phase selection process through which candidates must pass to meet the highest criteria for work in such countries as the UK, Croatia, Malta, Bulgaria, Poland, Romania, and other European Countries"
+      "contentdec": "When hiring foreign workers, it is important to consider the efforts of both parties involved: both the worker and the employer. To ensure that this effort is not in vain, we have developed a multi-phase selection process through which candidates must pass to meet the highest criteria for work in such countries as the UK and other European Countries"
     }
   },
 
@@ -218,7 +218,7 @@
       },
       "faq4": {
         "qus": "What distinguishes hiring foreign workers?",
-        "ans": "Foreign workers require a residence permit and work visa to enter the UK, Croatia, Malta, Bulgaria, Poland, Romania, or any other European country. Additionally, the process of integrating them into their workplace is more extensive and includes arranging accommodation, registering residence, issuing residence cards (biometric residence permits), and opening bank accounts"
+        "ans": "Foreign workers require a residence permit and work visa to enter the UK country. Additionally, the process of integrating them into their workplace is more extensive and includes arranging accommodation, registering residence, issuing residence cards (biometric residence permits), and opening bank accounts"
       },
       "faq5": {
         "qus": "How does a foreign worker register for pension and health insurance?",
