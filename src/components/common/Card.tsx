@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({
         </div>
         <div className="flex items-center  justify-between">
           <div className="flex -space-x-3"></div>
-          <button
+          {/* <button
             onClick={onClick}
             className="w-14 h-14 bg-white text-[#071A42] rounded-full flex items-center justify-center shadow-lg">
             <svg
@@ -40,7 +40,7 @@ const Card: React.FC<CardProps> = ({
                 d="M14.752 11.168l-5.197-3.03A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.03a1 1 0 000-1.664z"
               />
             </svg>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

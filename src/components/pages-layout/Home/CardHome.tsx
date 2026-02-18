@@ -1,7 +1,6 @@
 "use client";
 import { motion, Variants } from "framer-motion";
 import Card from "@/components/common/Card";
-import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 const cardVariants: Variants = {
@@ -36,10 +35,10 @@ const CardHome = () => {
   const card2 = useTranslations("cardhome2");
   const card3 = useTranslations("cardhome3");
 
-  const router = useRouter();
-  const handleButtonClick = (path: string) => {
-    router.push(path);
-  };
+  // const router = useRouter();
+  // const handleButtonClick = (path: string) => {
+  //   router.push(path);
+  // };
   return (
     <motion.div
       className="container mx-auto px-4 py-20"
@@ -49,7 +48,7 @@ const CardHome = () => {
       variants={containerVariants}>
       <motion.div className="flex justify-center items-center max-md:flex-col gap-4 md:gap-8">
         <motion.div
-          onClick={() => handleButtonClick("/recruitment")}
+          // onClick={() => handleButtonClick("/recruitment")}
           className="w-full sm:w-[360px] cursor-pointer"
           variants={cardVariants}>
           <Card
@@ -60,7 +59,7 @@ const CardHome = () => {
         </motion.div>
 
         <motion.div
-          onClick={() => handleButtonClick("/hr-consulting")}
+          // onClick={() => handleButtonClick("/hr-consulting")}
           className="w-full sm:w-[360px] cursor-pointer"
           variants={cardVariants}>
           <Card
@@ -71,7 +70,7 @@ const CardHome = () => {
         </motion.div>
 
         <motion.div
-          onClick={() => handleButtonClick("/outstaffing")}
+          // onClick={() => handleButtonClick("/outstaffing")}
           className="w-full sm:w-[360px] cursor-pointer"
           variants={cardVariants}>
           <Card
