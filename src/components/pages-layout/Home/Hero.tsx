@@ -47,7 +47,7 @@ const Hero = () => {
               playsInline
               className="absolute left-0 top-0 h-full w-full bg-primary object-cover">
               <source
-                src="https://res.cloudinary.com/dnso38ira/video/upload/v1771417709/Profi_Stuff_wwks6a.mp4"
+                src="https://res.cloudinary.com/dnso38ira/video/upload/v1771419802/Profi_Stuff_wwks6a.mp4"
                 type="video/mp4"
               />
             </video>
