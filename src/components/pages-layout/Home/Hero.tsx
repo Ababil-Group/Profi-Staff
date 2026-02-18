@@ -19,7 +19,7 @@ const Hero = () => {
         "bg-primary w-screen",
         "left-[50%] right-[50%] mx-[-50vw] px-0",
         "min-h-[85vh] md:min-h-[90vh] lg:min-h-[85vh] xl:min-h-[100vh]",
-        "-mt-20"
+        "-mt-20",
       )}>
       <div className="container mx-auto px-4 pt-12 sm:pt-16 md:pt-20 lg:pt-24 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-center">
@@ -38,14 +38,14 @@ const Hero = () => {
               "aspect-square",
               "mx-auto",
               "order-1 lg:order-1", // 👈 Now image is first on all screens
-              "-mt-6 sm:mt-0 mb-6 sm:mb-0"
+              "-mt-6 sm:mt-0 mb-6 sm:mb-0",
             )}>
             <video
               autoPlay
               muted
               loop
               playsInline
-              className="absolute left-0 top-0 h-full w-full object-cover">
+              className="absolute left-0 top-0 h-full w-full bg-primary object-cover">
               <source
                 src="https://res.cloudinary.com/dtw7qhd69/video/upload/v1753440662/12_ujxinn.mp4"
                 type="video/mp4"

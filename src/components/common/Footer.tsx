@@ -8,7 +8,7 @@ import {
   MapPin,
   Youtube,
 } from "lucide-react";
-import {  FaPinterestP } from "react-icons/fa";
+import { FaPinterestP } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 
 const Footer = () => {
@@ -71,7 +71,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-primary/5 py-8 sm:py-12 lg:py-16">
+    <footer className="bg-primary py-8 sm:py-12 lg:py-16">
       {" "}
       {/* Changed from bg-white to bg-primary/5 */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -80,11 +80,11 @@ const Footer = () => {
           <div className="lg:col-span-4">
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-4 md:mb-6">
+                <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 md:mb-6">
                   {t("title")}
                 </h3>
                 <div className="relative">
-                  <p className="text-base md:text-lg lg:text-xl text-black leading-relaxed md:leading-relaxed lg:leading-relaxed">
+                  <p className="text-base md:text-lg lg:text-xl text-white leading-relaxed md:leading-relaxed lg:leading-relaxed">
                     {t("desc")}
                   </p>
                   <div className="absolute -left-4 top-0 bottom-0 w-1 bg-primary-secondary rounded-full"></div>
@@ -100,9 +100,9 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className={cn(
                       "p-2.5 rounded-full transition-all transform",
-                      "bg-transparent hover:bg-primary",
-                      "text-primary",
-                      "hover:text-primary-secondary",
+                      "bg-transparent hover:bg-primary-secondary ",
+                      "text-primary-secondary hover:text-white",
+                      "hover:text-primary",
                       "flex items-center justify-center",
                     )}
                     aria-label={social.label}>
@@ -120,7 +120,7 @@ const Footer = () => {
 
           {/* Locations Grid */}
           <div className="lg:col-span-8">
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-black mb-4 md:mb-6 lg:mb-8">
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4 md:mb-6 lg:mb-8">
               {t("title2")}
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
@@ -130,10 +130,10 @@ const Footer = () => {
                   className="group flex items-start space-x-3 p-3 rounded-lg hover:bg-primary transition-all duration-300">
                   <MapPin className="h-5 w-5 md:h-6 md:w-6 text-primary flex-shrink-0 mt-1 group-hover:text-primary-secondary transition-all duration-300" />
                   <div>
-                    <h4 className="text-base md:text-lg font-semibold text-black group-hover:text-white transition-all duration-300">
+                    <h4 className="text-base md:text-lg font-semibold text-white group-hover:text-primary-secondary transition-all duration-300">
                       {location.country}
                     </h4>
-                    <p className="text-black group-hover:text-white/90 text-xs md:text-sm lg:text-base leading-relaxed transition-all duration-300">
+                    <p className="text-white/80 group-hover:text-white text-xs md:text-sm lg:text-base leading-relaxed transition-all duration-300">
                       {location.address}
                     </p>
                   </div>
@@ -146,7 +146,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-primary/10 mt-12 md:mt-16 pt-6 md:pt-8">
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0">
-            <div className="text-xs md:text-sm lg:text-base text-black text-center md:text-left">
+            <div className="text-xs md:text-sm lg:text-base text-white text-center md:text-left">
               © 2026 Profi Staff. All rights reserved.
               {/* Copyright © {new Date().getFullYear()} Recruitment4u . All rights
               reserved. */}
