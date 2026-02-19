@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({
   title,
   bgColor,
   description,
-  onClick,
+  // onClick,
 }) => {
   return (
     <div
